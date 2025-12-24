@@ -3,7 +3,7 @@
 ## Author
 **Jahnavi E M**  
 MSc Physics, Indian Institute of Technology Tirupati  
-Email: your-email@email.com  
+Email: jahnaviemhari@gmail.com  
 GitHub: [Jahnaviem](https://github.com/Jahnaviem)
 
 ---
@@ -21,4 +21,3 @@ The project focuses on modeling the evolution of the ionized hydrogen fraction d
 
 ---
 
-## Repository Structure
