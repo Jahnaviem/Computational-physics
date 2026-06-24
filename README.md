@@ -19,6 +19,7 @@ The project focuses on modeling the evolution of the ionized hydrogen fraction d
 - Model the **Ionised hydrogen volume fraction(Q_HII)** as a function of redshift.
 - Solve reionization equations to compute the **redshift evolution of the ionized volume filling factor**.
 - Model the **Neutral fraction(x_HII)** as a function of redshift and fit the real data points of neutral fraction from various papers.
+- Formulate the analytical form of Ionising photon emissivity as a function redshift (z).
 - Evaluate how **escape fraction(f_esc)** evolves with redshift.
 ---
 
