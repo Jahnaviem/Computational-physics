@@ -1,4 +1,4 @@
-# Semi-Analytic Study of Hydrogen Reionization
+# The observational reconstruction of the ionising photon emissivity during the epoch of reionisation
 
 ## Author
 **Jahnavi E M**  
@@ -9,17 +9,18 @@ GitHub: [Jahnaviem](https://github.com/Jahnaviem)
 ---
 
 ## Overview
-This repository contains the code and analysis for a **semi-analytic study of cosmic hydrogen reionization**.  
-The project focuses on modeling the evolution of the ionized hydrogen fraction during the Epoch of Reionization and investigating its dependence on key astrophysical parameters.
+This repository contains the code and analysis for a **The Observational Reconstruction of Ionising Photon Emissivity during the Epoch of Reionisation**.  
+The project focuses on reconstruction of neutral hydrogen fraction as observational constraints primarily from quasar damping-wing method and deriving the analytical expression of ionising photon emissivity based on this reconstruction. It also includes comparing this obtained ionising emissivity with the intrinsic ionising production rate to get escape fraction as a function of redshift.
 
 ---
 
 ## Project Objectives
-- Implement **Press- Schectar formalism** to compute the halo mass function relevant to reionisation.
-- Model the **Ionised hydrogen volume fraction(Q_HII)** as a function of redshift.
-- Solve reionization equations to compute the **redshift evolution of the ionized volume filling factor**.
-- Model the **Neutral fraction(x_HII)** as a function of redshift and fit the real data points of neutral fraction from various papers.
-- Formulate the analytical form of Ionising photon emissivity as a function redshift (z).
-- Evaluate how **escape fraction(f_esc)** evolves with redshift.
+- Reconstruct the redshift evolution of the neutral hydrogen fraction (x_HI) using observational constraints from high-redshift quasar Lyα damping-wing measurements
+- Develop a Bayesian framework using Cobaya MCMC to constrain the evolution of the neutral fraction during the Epoch of Reionisation.
+- Derive an analytical expression for the ionising photon emissivity (ndot_ion) as a function of redshift.
+- Investigate the redshift evolution of the ionising photon emissivity and identify its key features during reionisation.
+- Estimate the escape fraction ((f_{\rm esc})) by comparing the required ionising emissivity with the intrinsic emissivity inferred from ultraviolet luminosity functions.
+- Solve the cosmological reionisation equation numerically to obtain the evolution of the ionised hydrogen volume fraction (Q_HII).
+- Verify the consistency of the analytical emissivity reconstruction through numerical solutions of the reionisation equation.
 ---
 
